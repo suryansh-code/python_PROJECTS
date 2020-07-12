@@ -1,0 +1,23 @@
+{
+  "bank":[
+  {
+    'name':'suryansh'
+    'amount':'1000000000'
+    'pin':'12345'
+  },
+  {
+  'name':'pradhavan bisht'
+  'amount':'999999999999999'
+  'pin':54321
+  },
+  {
+  'name':'saumil'
+  'amount':'10'
+  'pin':100001
+  },
+  {
+  'name':'vishu bisht'
+  'amount':'19'
+  'pin':'121212
+  },
+}
