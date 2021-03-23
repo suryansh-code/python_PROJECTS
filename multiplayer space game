@@ -1,3 +1,7 @@
+#yellow_spaceship_image , red_spaceship_image,space,BULLET1_DONE AND BULLET2_DONE LINE NO.33,34,37,38,41,43,44,46,47
+
+
+
 import pygame
 
 pygame.font.init()
