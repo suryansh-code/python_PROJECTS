@@ -16,11 +16,11 @@ YELLOW = (255,255,0)
 BACKGROUND_COLOR =(0,0,0)
 
 # defining the player size and player position
-player_size = 50
+player_size = 40
 player_pos = [WIDTH/2, HEIGHT-player_size]
 
 #defining the enemy size,enemy position and and the list of enemies
-enemy_size = 50
+enemy_size = 60
 enemy_pos = [random.randint(0,WIDTH-enemy_size), 0]
 enemy_list = [enemy_pos]
 
@@ -47,11 +47,11 @@ myFont = pygame.font.SysFont("monospace", 35)
 # making a function set_lvl which increases the speed of the game according to the increament in speed
 def set_level(score, SPEED):
 	if score < 20:
-		SPEED = 5
+		SPEED = 10
 	elif score < 40:
-		SPEED = 8
+		SPEED = 10
 	elif score < 60:
-		SPEED = 18
+		SPEED = 20
 	else:
 		SPEED = 20
 	return SPEED
